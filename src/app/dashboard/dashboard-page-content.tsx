@@ -84,7 +84,7 @@ export const DashboardPageContent = () => {
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm/5 text-gray-600">
                   <Clock className="size-4 mr-2 text-brand-500" />
-                  <span className="font-medium">Last ping:</span>
+                  <span className="font-medium">Last alert:</span>
                   <span className="ml-1">
                     {category.lastPing
                       ? formatDistanceToNow(category.lastPing) + " ago"
